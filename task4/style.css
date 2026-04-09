@@ -1,0 +1,98 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Body */
+body {
+  background: #f5f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  background: #ffffff;
+  padding: 30px;
+  width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #6c63ff;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #6c63ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5848e5;
+}
+
+/* Task List */
+ul {
+  margin-top: 15px;
+  list-style: none;
+}
+
+/* Each Task */
+li {
+  background: #f9f9f9;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Task text */
+li span {
+  flex: 1;
+  text-align: left;
+}
+
+/* Buttons inside list */
+li button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+/* Completed Task */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
