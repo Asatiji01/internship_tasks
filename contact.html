@@ -3,7 +3,6 @@
 <head>
   <title>Contact</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
 </head>
 
 <body>
@@ -16,6 +15,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li><a href="submissions.html">Submissions</a></li>
     </ul>
   </nav>
 </header>
@@ -24,14 +24,17 @@
   <div class="container">
     <h2>Contact Us</h2>
 
-    <form name="contactForm" onsubmit="return validateForm()">
-      <input type="text" name="name" placeholder="Enter your name">
-      <input type="email" name="email" placeholder="Enter your email">
-      <textarea name="message" placeholder="Enter message"></textarea>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Enter your name">
+      <input type="email" id="email" placeholder="Enter your email">
+      <textarea id="message" placeholder="Enter message"></textarea>
       <button type="submit">Send Message</button>
     </form>
   </div>
 </section>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
