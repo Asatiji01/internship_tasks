@@ -1,0 +1,67 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.controls {
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+input, select {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card button {
+  background: #ff9800;
+  border: none;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.card button:hover {
+  background: #e68900;
+}
+
+.pagination {
+  text-align: center;
+  padding: 10px;
+}

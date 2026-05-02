@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Smart Headphones",
+    "price": 2999,
+    "category": "Electronics",
+    "image": "https://picsum.photos/300?random=1"
+  },
+  {
+    "id": 2,
+    "title": "Running Shoes",
+    "price": 1599,
+    "category": "Fashion",
+    "image": "https://picsum.photos/300?random=2"
+  },
+  {
+    "id": 3,
+    "title": "T-Shirt",
+    "price": 799,
+    "category": "Fashion",
+    "image": "https://picsum.photos/300?random=3"
+  },
+  {
+    "id": 4,
+    "title": "Laptop",
+    "price": 55000,
+    "category": "Electronics",
+    "image": "https://picsum.photos/300?random=4"
+  },
+  {
+    "id": 5,
+    "title": "Rice Bag",
+    "price": 1200,
+    "category": "Grocery",
+    "image": "https://picsum.photos/300?random=5"
+  },
+  {
+    "id": 6,
+    "title": "Mobile Phone",
+    "price": 18000,
+    "category": "Electronics",
+    "image": "https://picsum.photos/300?random=6"
+  }
+]
