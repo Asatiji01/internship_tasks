@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🛒 My Store</h1>
+  <a href="cart.html">Go to Cart</a>
+</header>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search product...">
+
+  <select id="sort">
+    <option value="">Sort</option>
+    <option value="price-asc">Price Low → High</option>
+    <option value="price-desc">Price High → Low</option>
+  </select>
+</div>
+
+<div id="spinner">Loading...</div>
+
+<div id="error">
+  Unable to load products
+</div>
+
+<form id="add-form">
+  <input id="title" placeholder="Product Name" required>
+  <input id="price" type="number" placeholder="Price" required>
+
+  <button>Add Product</button>
+</form>
+
+<div id="products" class="grid"></div>
+
+<div class="pagination">
+  <button onclick="prevPage()">Prev</button>
+  <span id="page"></span>
+  <button onclick="nextPage()">Next</button>
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
